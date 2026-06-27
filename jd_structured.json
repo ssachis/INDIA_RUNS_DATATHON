@@ -1,0 +1,127 @@
+{
+  "role_title": "Senior AI Engineer \u2014 Founding Team",
+  "role_category": "Applied ML / Information Retrieval / Search & Recommendation",
+  "experience": {
+    "min_years": 5,
+    "max_years": 9
+  },
+  "core_problem": [
+    "The current candidate matching/search system relies on brittle, low-leverage BM25 and rule-based scoring.",
+    "The company needs to quickly design, deploy, and scale a high-leverage v2 hybrid search and ranking engine that directly impacts user engagement.",
+    "Lack of evaluation infrastructure (A/B testing, offline benchmarks, feedback loops) makes it impossible to systematically improve search relevance without flying blind."
+  ],
+  "must_have_skills": [
+    "Production experience with embedding-based retrieval models (sentence-transformers, BGE, E5, etc.)",
+    "Production management of vector databases or hybrid search index lifecycle (index refresh, handling drift, quality regression)",
+    "Strong, production-grade Python coding skills",
+    "Rigorous knowledge of ranking evaluation metrics (NDCG, MRR, MAP, offline-to-online correlation)"
+  ],
+  "nice_to_have_skills": [
+    "LLM fine-tuning methodologies (LoRA, QLoRA, PEFT)",
+    "Learning-to-Rank (LTR) model implementation (XGBoost, LambdaMART, neural ranking)",
+    "Experience with distributed systems and large-scale model inference optimization",
+    "Open-source contributions to AI/ML or search projects"
+  ],
+  "required_domains": [
+    "Information Retrieval (IR)",
+    "Search & Recommendation Systems",
+    "Natural Language Processing (NLP)",
+    "Marketplace / Matchmaking Systems"
+  ],
+  "required_systems_experience": [
+    "Vector Databases (Pinecone, Weaviate, Qdrant, Milvus, FAISS)",
+    "Hybrid Search Engines (Elasticsearch, OpenSearch)",
+    "Offline evaluation frameworks and online A/B testing infrastructure"
+  ],
+  "behavioral_requirements": [
+    "Pragmatic, 'shipper' mindset over academic or theoretical purity",
+    "High autonomy and comfortable with high ambiguity (Series A founding environment)",
+    "Strong async communication skills with a heavy emphasis on written documentation",
+    "Comfortable with open, direct intellectual debate and rapid decision-making cycles"
+  ],
+  "hidden_requirements": [
+    "Ability to work completely independently without an army of platform or infra engineers to deploy your models",
+    "Long-term retention alignment: looking for high-ownership individuals who want equity upside and plan to stay 3+ years, not title-chasers",
+    "An intuitive grasp of recruitment or HR-tech search challenges (e.g., matching unstructured resume data with unstructured job descriptions)"
+  ],
+  "negative_signals": [
+    "Frequent job hopping (switching companies every 1-1.5 years to climb titles)",
+    "Over-reliance on high-level orchestration frameworks like LangChain/LlamaIndex for basic tasks",
+    "Lack of public-facing code, open-source work, or papers if coming from closed-source backgrounds",
+    "Reluctance to write production-ready code (e.g., claiming to be an 'architect' or 'tech lead' who no longer codes)"
+  ],
+  "disqualifiers": [
+    "Career spent entirely in pure research/academic environments with zero production deployments",
+    "No pre-LLM era ML experience, or AI experience limited strictly to calling wrapper APIs (e.g., OpenAI API) for <12 months",
+    "No production code written in the past 18 months",
+    "Entire career spent at IT consulting/outsourcing firms (TCS, Infosys, Wipro, Accenture, Cognizant, etc.) without product-company experience",
+    "Primary expertise is purely in Computer Vision, Audio, or Robotics with no NLP/Search background"
+  ],
+  "preferred_candidate_archetypes": [
+    {
+      "name": "The Product-Minded ML Shipper",
+      "description": "An engineer currently working at a fast-growing B2B/B2C marketplace or SaaS startup who has successfully built and deployed a search, match, or recommendation feed from scratch, prioritizing metrics and execution speed over academic perfection."
+    }
+  ],
+  "bad_candidate_archetypes": [
+    {
+      "name": "The Framework Wrapper Hype-Rider",
+      "description": "An engineer whose resume is packed with trendy AI keywords, LangChain tutorials, and Toy GPT wrappers, but lacks foundational software engineering, mathematical intuition for retrieval, or classic IR evaluation metrics."
+    },
+    {
+      "name": "The Pure Research Academic",
+      "description": "A researcher with a deep publication record in top AI conferences who is used to working on static datasets with infinite training time, but struggles to write clean production Python or optimize latency."
+    },
+    {
+      "name": "The Enterprise Consulting Engineer",
+      "description": "An engineer with a career built inside giant IT services systems who expects highly structured task tickets, clear requirements, and deep organizational hierarchy, rather than chaotic, fast-paced startup execution."
+    }
+  ],
+  "must_have_evidence": [
+    "A clear history of owning a production-scale ranking, search, or recommendation system at a product-first company",
+    "Demonstrated ability to write and ship clean, complex Python backend/ML code within the last year",
+    "Verifiable understanding of how they measured the business/relevance impact of their models (e.g., A/B test results, NDCG improvements)"
+  ],
+  "location_requirements": "Pune or Noida preferred (hybrid cadence), open to relocation from Tier-1 Indian cities (Delhi NCR, Bangalore, Hyderabad, Mumbai). No visa sponsorship.",
+  "what_the_jd_really_means": [
+    "'We'd rather you tilt slightly toward shipper than toward researcher' -> Do not waste time building an overly complex model when a simple, hybrid heuristics-and-embeddings approach can be shipped in 5 days to solve the user's immediate pain.",
+    "'We are growing the team from 4 to 12' -> You will need to wear many hats: writing code, designing systems, and mentoring junior hires simultaneously.",
+    "'We work async-first and write a lot' -> If you cannot clearly articulate your architectural decisions in written design docs, you will not survive our remote/async culture."
+  ],
+  "evidence_strength": {
+    "built_production_ranking_system": 100,
+    "built_recommendation_system": 95,
+    "owned_search_platform": 95,
+    "production_retrieval_system": 90,
+    "production_ml_system": 80,
+    "relevant_job_title": 75,
+    "open_source_contributions": 70,
+    "published_paper": 60,
+    "side_project": 40,
+    "listed_skill": 20,
+    "course_or_certificate": 10
+  },
+  "scoring_dimensions": [
+    {
+      "name": "Production Ranking & Retrieval Experience",
+      "weight": 0.35,
+      "reason": "The absolute core of the role is owning the matching/ranking architecture. Theoretical knowledge is useless; they must have managed production retrieval systems, index lifecycles, and embedding drift."
+    },
+    {
+      "name": "Production-Grade Coding & Architecture (Python)",
+      "weight": 0.25,
+      "reason": "This is a founding team role that writes code daily. We disqualify architects who don't code and researchers who write dirty notebooks. Code quality and system architecture are vital."
+    },
+    {
+      "name": "Evaluation Rigor & Metrics",
+      "weight": 0.2,
+      "reason": "If the candidate cannot scientifically evaluate if their model is actually better using NDCG, MRR, or online A/B testing, they will keep shipping blind changes."
+    },
+    {
+      "name": "Product Startup Shipper Mindset",
+      "weight": 0.2,
+      "reason": "Prefers shipping pragmatic, working rankers quickly rather than spending 6 months optimizing a marginal accuracy increase. Disqualifies slow-moving corporate or purely academic profiles."
+    }
+  ],
+  "ideal_candidate_summary": "A highly pragmatic Senior Applied ML / Search Engineer with 5 to 9 years of experience, currently working at a fast-paced product company or marketplace startup. They have hands-on experience building, scaling, and validating hybrid search and recommendation algorithms from scratch using vector databases and ranking metrics (NDCG/MRR). They are active IC coders in Python, communicate exceptionally well in writing, bias strongly toward execution speed over research perfection, and are located in or ready to relocate to Pune/Noida."
+}
