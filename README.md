@@ -12,3 +12,5 @@ openai, to rank the top 100 candidates parsing it along with JD_structured
 
 
 JD is also passed through LLM to get JD structured ie imp info from it
+
+IRA VORA is an example testcase
