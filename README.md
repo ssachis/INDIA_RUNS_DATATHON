@@ -1,5 +1,5 @@
 # INDIA_RUNS_DATATHON
-Initial dataset size=100k
+Initial dataset size=100k /n
 Candidate pool filtering filters it to top 4k
 then final_filtering filters it to top 150
 Uptill now the filtering is deterministic
